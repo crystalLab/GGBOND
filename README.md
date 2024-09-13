@@ -23,6 +23,7 @@ a python framework that supports multi-touch apps and well-suits for mobile plat
 4. test your kivy if it works
 create a python file: app.py
 <br>write code:<br>
+
 from kivy.app import App <br>
 from kivy.uix.label import Label<br>
 
