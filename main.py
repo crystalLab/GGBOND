@@ -1,10 +1,13 @@
 #basic pygame "game loop"
 import pygame
-import sys
+import os
 
+#disable sound
+os.environ["SDL_AUDIODRIVER"] = "dummy"
 #pygame setup
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
+pygame.display.set_caption("Pygame in Codespace")
 clock = pygame.time.Clock()
 running = True
 
@@ -25,6 +28,6 @@ while running:
     #limits FPS to 60
     clock.tick(60)
 
-pygame.image.save(screen, "screenshot.png")
-
 pygame.quit()
+
+pygame.image.save(screen, "screenshot.png")
