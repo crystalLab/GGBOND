@@ -1,5 +1,5 @@
-from kivy_env import App
-from kivy_env import Label
+from kivy import App
+from kivy import Label
 
 class Myapp(App):
     def build(self):
