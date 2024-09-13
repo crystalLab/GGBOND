@@ -2,9 +2,9 @@
 this is the respository for mananging project including code shares, asssests uploads etc.
 
 # code commit
-git add .
-git commit -m "your any names"
-git push origin main
+<br>bash: git add .
+<br>bash: git commit -m "your any names"
+<br>bash: git push origin main
 
 
 # Kivy
@@ -13,28 +13,28 @@ a python framework that supports multi-touch apps and well-suits for mobile plat
 - use Buildozer to create APK for Android
 
 1. set up python python virtual environment for kivy
-bash: python -m venv kivy_env
-bash: source kivy_env/bin/activate
+- bash: python -m venv kivy_env
+- bash: source kivy_env/bin/activate
 2. install dependencies
-sudo apt-get install python3-dev libgles2-mesa-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev pkg-config libgl1-mesa-dev libgles2-mesa-dev libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-pulseaudio
+<br>bash: sudo apt-get install python3-dev libgles2-mesa-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev pkg-config libgl1-mesa-dev libgles2-mesa-dev libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-pulseaudio
 3. install kivy and additional components
-bash: pip install kivy
-bash: pip install kivy[base] kivy[media] kivy[angle] kivy[full]
+- bash: pip install kivy
+- bash: pip install kivy[base] kivy[media] kivy[angle] kivy[full]
 4. test your kivy if it works
 create a python file: app.py
-write code:
-from kivy.app import App
+<br>write code:<br>
+from kivy.app import App <br>
 from kivy.uix.label import Label
-
+<br>
 class MyApp(App):
     def build(self):
         return Label(text="Hello, Kivy!")
-
+<br>
 if __name__ == '__main__':
     MyApp().run()
-
+<br>
 run your python file:
-bash: python app.py
+<br>bash: python app.py
 
 
 # VNC in Codespace
