@@ -34,7 +34,7 @@ class MyApp(App):<br>
 if __name__ == '__main__':
     MyApp().run()
 
-run your python file:
+5. run your python file
 - bash: python app.py
 
 
