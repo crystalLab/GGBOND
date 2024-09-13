@@ -24,14 +24,14 @@ a python framework that supports multi-touch apps and well-suits for mobile plat
 create a python file: app.py
 <br>write code:<br>
 
-from kivy.app import App <br>
-from kivy.uix.label import Label<br>
+//from kivy.app import App <br>
+//from kivy.uix.label import Label<br>
 
-class MyApp(App):<br>
-    def build(self):
+//class MyApp(App):<br>
+//    def build(self):
         return Label(text="Hello, Kivy!")<br>
 
-if __name__ == '__main__':
+//if __name__ == '__main__':
     MyApp().run()
 
 5. run your python file
