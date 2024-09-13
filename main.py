@@ -28,6 +28,7 @@ while running:
     #limits FPS to 60
     clock.tick(60)
 
+pygame.image.save(screen, "screenshot.png")
+
 pygame.quit()
 
-pygame.image.save(screen, "screenshot.png")
