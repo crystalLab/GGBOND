@@ -22,11 +22,11 @@ a python framework that supports multi-touch apps and well-suits for mobile plat
 - bash: pip install kivy[base] kivy[media] kivy[angle] kivy[full]
 4. test your kivy if it works
 create a python file: app.py
-<br>write code:
-from kivy.app import App 
+<br>write code:<br>
+from kivy.app import App <br>
 from kivy.uix.label import Label
 
-class MyApp(App):
+class MyApp(App):<br>
     def build(self):
         return Label(text="Hello, Kivy!")
 
