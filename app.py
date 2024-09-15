@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 # sdl2 window provider
 #Config.set('kivy', 'window_provider', 'sdl2')
-Config.set('kivy','keyboard_mode','systemandmulti')
+Config.set('kivy','keyboard_mode','systemanddock')
 # un in headless mode (no GUI)
 Config.set('graphics', 'width', '800')
 Config.set('graphics', 'height', '600')
