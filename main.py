@@ -6,7 +6,7 @@ import os
 os.environ["SDL_AUDIODRIVER"] = "dummy"
 #pygame setup
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Pygame in Codespace")
 clock = pygame.time.Clock()
 running = True
