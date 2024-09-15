@@ -1,6 +1,9 @@
 # GGBOND
 this is the respository for mananging project including code shares, asssests uploads etc.
 
+# codespace ip address
+<br>bash: curl ifconfig.me
+
 # code commit
 <br>bash: git add .
 <br>bash: git commit -m "your any names"
