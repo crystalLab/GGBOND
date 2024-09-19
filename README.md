@@ -43,7 +43,7 @@ A Flask route is used to handle OAuth callbacks from Fitbit authentication.
 - Fitbit API: https://python-fitbit.readthedocs.io/en/latest/
 - Android Developer Health & Fitness: https://developer.android.com/health-and-fitness/guides/health-connect/migrate/comparison-guide#health-connect
 
-## Data Code dependencies
+## Data Code Dependencies
 - Fitbit API in Python: <br>
 Quickstart, https://python-fitbit.readthedocs.io/en/latest/ <br>
 get_all_activity_types: https://dev.fitbit.com/build/reference/web-api/activity/get-all-activity-types/ <br>
